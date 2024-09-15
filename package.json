@@ -3,8 +3,8 @@
   "version": "1.5.1",
   "private": true,
   "description": "This is the plugin fastgpt for LobeChat plugin development",
-  "homepage": "https://github.com/chung1912/chat-plugin-fastgpt",
-  "repository": "https://github.com/chung1912/chat-plugin-fastgpt.git",
+  "homepage": "https://github.com/chung1912/lobechat-plugin-fastgpt",
+  "repository": "https://github.com/chung1912/lobechat-plugin-fastgpt.git",
   "workspaces": [
     "docs/*",
     "./*"

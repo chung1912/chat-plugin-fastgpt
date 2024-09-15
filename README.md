@@ -91,7 +91,7 @@ Or clone it for local development:
 [![][bun-shield]][bun-link]
 
 ```bash
-$ git clone https://github.com/chung1912/chat-plugin-fastgpt.git
+$ git clone https://github.com/chung1912/lobechat-plugin-fastgpt.git
 $ cd chat-plugin-template
 $ bun install
 $ bun dev
@@ -148,29 +148,29 @@ This project is [MIT](./LICENSE) licensed.
 [chat-plugin-web-crawler]: https://github.com/lobehub/chat-plugin-web-crawler
 [chat-plugins-gateway]: https://github.com/lobehub/chat-plugins-gateway
 [fc-link]: https://sspai.com/post/81986
-[github-action-release-link]: https://github.com/chung1912/chat-plugin-fastgpt/actions/workflows/release.yml
-[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/chung1912/chat-plugin-fastgpt/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-action-test-link]: https://github.com/chung1912/chat-plugin-fastgpt/actions/workflows/test.yml
-[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/chung1912/chat-plugin-fastgpt/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
-[github-codespace-link]: https://codespaces.new/chung1912/chat-plugin-fastgpt
+[github-action-release-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/actions/workflows/release.yml
+[github-action-release-shield]: https://img.shields.io/github/actions/workflow/status/chung1912/lobechat-plugin-fastgpt/release.yml?label=release&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-action-test-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/actions/workflows/test.yml
+[github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/chung1912/lobechat-plugin-fastgpt/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
+[github-codespace-link]: https://codespaces.new/chung1912/lobechat-plugin-fastgpt
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
-[github-contrib-link]: https://github.com/chung1912/chat-plugin-fastgpt/graphs/contributors
+[github-contrib-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/graphs/contributors
 [github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-template
-[github-contributors-link]: https://github.com/chung1912/chat-plugin-fastgpt/graphs/contributors
-[github-contributors-shield]: https://img.shields.io/github/contributors/chung1912/chat-plugin-fastgpt?color=c4f042&labelColor=black&style=flat-square
-[github-forks-link]: https://github.com/chung1912/chat-plugin-fastgpt/network/members
-[github-forks-shield]: https://img.shields.io/github/forks/chung1912/chat-plugin-fastgpt?color=8ae8ff&labelColor=black&style=flat-square
-[github-issues-link]: https://github.com/chung1912/chat-plugin-fastgpt/issues
-[github-issues-shield]: https://img.shields.io/github/issues/chung1912/chat-plugin-fastgpt?color=ff80eb&labelColor=black&style=flat-square
-[github-license-link]: https://github.com/chung1912/chat-plugin-fastgpt/blob/main/LICENSE
-[github-license-shield]: https://img.shields.io/github/license/chung1912/chat-plugin-fastgpt?color=white&labelColor=black&style=flat-square
-[github-release-link]: https://github.com/chung1912/chat-plugin-fastgpt/releases
-[github-release-shield]: https://img.shields.io/github/v/release/chung1912/chat-plugin-fastgpt?color=369eff&labelColor=black&logo=github&style=flat-square
-[github-releasedate-link]: https://github.com/chung1912/chat-plugin-fastgpt/releases
-[github-releasedate-shield]: https://img.shields.io/github/release-date/chung1912/chat-plugin-fastgpt?labelColor=black&style=flat-square
-[github-stars-link]: https://github.com/chung1912/chat-plugin-fastgpt/network/stargazers
-[github-stars-shield]: https://img.shields.io/github/stars/chung1912/chat-plugin-fastgpt?color=ffcb47&labelColor=black&style=flat-square
+[github-contributors-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/graphs/contributors
+[github-contributors-shield]: https://img.shields.io/github/contributors/chung1912/lobechat-plugin-fastgpt?color=c4f042&labelColor=black&style=flat-square
+[github-forks-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/network/members
+[github-forks-shield]: https://img.shields.io/github/forks/chung1912/lobechat-plugin-fastgpt?color=8ae8ff&labelColor=black&style=flat-square
+[github-issues-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/issues
+[github-issues-shield]: https://img.shields.io/github/issues/chung1912/lobechat-plugin-fastgpt?color=ff80eb&labelColor=black&style=flat-square
+[github-license-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/blob/main/LICENSE
+[github-license-shield]: https://img.shields.io/github/license/chung1912/lobechat-plugin-fastgpt?color=white&labelColor=black&style=flat-square
+[github-release-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/releases
+[github-release-shield]: https://img.shields.io/github/v/release/chung1912/lobechat-plugin-fastgpt?color=369eff&labelColor=black&logo=github&style=flat-square
+[github-releasedate-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/releases
+[github-releasedate-shield]: https://img.shields.io/github/release-date/chung1912/lobechat-plugin-fastgpt?labelColor=black&style=flat-square
+[github-stars-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/network/stargazers
+[github-stars-shield]: https://img.shields.io/github/stars/chung1912/lobechat-plugin-fastgpt?color=ffcb47&labelColor=black&style=flat-square
 [lobe-chat-plugins]: https://github.com/lobehub/lobe-chat-plugins
-[pr-welcome-link]: https://github.com/chung1912/chat-plugin-fastgpt/pulls
+[pr-welcome-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/pulls
 [pr-welcome-shield]: https://img.shields.io/badge/%F0%9F%A4%AF%20PR%20WELCOME-%E2%86%92-ffcb47?labelColor=black&style=for-the-badge
 [profile-url]: https://github.com/lobehub
