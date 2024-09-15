@@ -1,0 +1,88 @@
+{
+  "$schema": "../node_modules/@lobehub/chat-plugin-sdk/schema.json",
+  "api": [
+    {
+      "url": "https://fastgpt.chat-plugin.lobehub.com/api/dataset-list",
+      "name": "GetDatasetList",
+      "description": "Get the dataset list. If parentId is empty, get the dataset list under the root directory",
+      "parameters": {
+        "properties": {
+          "parentId": {
+            "description": "Parent ID, can be `default`",
+            "type": "string"
+          }
+        },
+        "required": ["parentId"],
+        "type": "object"
+      }
+    },
+    {
+      "url": "https://fastgpt.chat-plugin.lobehub.com/api/dataset-search",
+      "name": "SearchFromDatasetById",
+      "description": "search chunks from dataset by `datesetId`",
+      "parameters": {
+        "properties": {
+          "datasetId": {
+            "description": "id for dataset, can query from `GetDatasetList`",
+            "type": "string"
+          },
+          "text": {
+            "description": "keyword to query from dataset",
+            "type": "string"
+          },
+          "limit": {
+            "description": "limit for response data, can be `5000`",
+            "type": "number"
+          },
+          "searchMode": {
+            "description": "can be `mixedRecall`",
+            "type": "string"
+          },
+          "similarity": {
+            "description": "minimum relevance (0~1), can be `0`",
+            "type": "number"
+          },
+          "usingReRank": {
+            "description": "can be `false`",
+            "type": "boolean"
+          }
+        },
+        "required": ["datasetId","text","limit","searchMode","similarity","usingReRank"],
+        "type": "object"
+      }
+    }
+  ],
+  "author": "Chung1912",
+  "createdAt": "2024-09-15",
+  "homepage": "https://github.com/chung1912/chat-plugin-fastgpt",
+  "identifier": "fastgpt-dateset-search",
+  "meta": {
+    "avatar": "https://fastgpt.chat-plugin.lobehub.com/logo.ico",
+    "tags": ["fastgpt", "dataset", "search"],
+    "title": "FastGPT知识库搜索引擎",
+    "description": "该插件使用FastGPT的知识库"
+  },
+  "settings": {
+    "type": "object",
+    "required": ["BASE_URL","API_KEY"],
+    "properties": {
+      "API_KEY": {
+        "title": "API Key",
+        "description": "密钥的格式：fastgpt-xxxxxx",
+        "type": "string",
+        "minLength": 60,
+        "maxLength": 60,
+        "format": "password"
+      },
+      "BASE_URL": {
+        "title": "BASE URL",
+        "description": "FastGPT的服务器地址([FastGPT知识库API文档](https://doc.tryfastgpt.ai/docs/development/openapi/dataset/))",
+        "type": "string",
+        "minLength": 7,
+        "maxLength": 100,
+        "format": "text"
+      }
+    }
+  },
+  "version": "1"
+}
