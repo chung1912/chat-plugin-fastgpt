@@ -82,9 +82,10 @@ This is the plugin fastgpt for LobeChat plugin development
 
 ## ⌨️ Local Development
 
-You can use Github Codespaces for online development:
+You can use Github Codespaces or Codeanywhere for online development:
 
 [![][github-codespace-shield]][github-codespace-link]
+[![][codeanywhere-shield]][codeanywhere-link]
 
 Or clone it for local development:
 
@@ -154,6 +155,8 @@ This project is [MIT](./LICENSE) licensed.
 [github-action-test-shield]: https://img.shields.io/github/actions/workflow/status/chung1912/lobechat-plugin-fastgpt/test.yml?label=test&labelColor=black&logo=githubactions&logoColor=white&style=flat-square
 [github-codespace-link]: https://codespaces.new/chung1912/lobechat-plugin-fastgpt
 [github-codespace-shield]: https://github.com/codespaces/badge.svg
+[codeanywhere-link]: https://app.codeanywhere.com/#https://github.com/chung1912/lobechat-plugin-fastgpt
+[codeanywhere-shield]: https://codeanywhere.com/img/open-in-codeanywhere-btn.svg
 [github-contrib-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/graphs/contributors
 [github-contrib-shield]: https://contrib.rocks/image?repo=lobehub%2Fchat-plugin-template
 [github-contributors-link]: https://github.com/chung1912/lobechat-plugin-fastgpt/graphs/contributors
